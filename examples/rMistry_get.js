@@ -2,10 +2,12 @@ var reply = require('./../');
 
 var opts = {
   animal: {
-      message: 'What is your favorite animal?'
+      message: 'What is your favorite animal?',
+      options: ['panda','giraffe','koala','elephant','tiger','zebra','other']
   },
   insect: {
-      message: 'What is your favorite insect?'
+      message: 'What is your favorite insect?',
+      options: ['fly','bee','spider','mosquito','ladybug','catapillar','moth','dragonfly','other']
   }
 }
 
