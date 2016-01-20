@@ -2,17 +2,35 @@
   "author": "Tomás Pollak <tomas@forkhq.com> (http://forkhq.com)",
   "name": "reply",
   "description": "Create console-based wizards in a snap.",
-  "tags" : ["reply", "prompt", "console", "wizard", "input"],
+  "tags": [
+    "reply",
+    "prompt",
+    "console",
+    "wizard",
+    "input"
+  ],
   "version": "0.3.0",
   "engine": "node >= 0.10",
   "repository": {
     "type": "git",
-    "url" : "https://github.com/tomas/reply"
+    "url": "https://github.com/tomas/reply"
   },
   "dependencies": {},
   "devDependencies": {},
   "optionalDependencies": {},
   "engines": {
     "node": "*"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/tomas/reply/issues"
+  },
+  "homepage": "https://github.com/tomas/reply",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
 }
